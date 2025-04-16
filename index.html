@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub - Your Daily News Source</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar with Logo and Category Selector -->
+    <header class="top-bar">
+        <div class="logo">
+            <h1>NewsHub</h1>
+        </div>
+        <nav class="category-selector">
+            <ul>
+                <li class="active"><a href="#">World</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content - News Feed -->
+    <main class="news-feed">
+        <!-- Article Card 1 -->
+        <article class="article-card">
+            <div class="article-image">
+                <img src="https://source.unsplash.com/random/600x400/?technology" alt="Technology News">
+            </div>
+            <div class="article-content">
+                <h2>New AI Breakthrough Could Revolutionize Healthcare</h2>
+                <p class="snippet">Researchers have developed a new AI system that can predict health issues before symptoms appear, potentially saving millions of lives...</p>
+                <div class="article-meta">
+                    <span class="timestamp"><i class="far fa-clock"></i> 2 hours ago</span>
+                    <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article Card 2 -->
+        <article class="article-card">
+            <div class="article-image">
+                <img src="https://source.unsplash.com/random/600x400/?business" alt="Business News">
+            </div>
+            <div class="article-content">
+                <h2>Global Markets Reach Record Highs Amid Economic Recovery</h2>
+                <p class="snippet">Stock markets around the world are seeing unprecedented growth as economies bounce back from recent challenges...</p>
+                <div class="article-meta">
+                    <span class="timestamp"><i class="far fa-clock"></i> 5 hours ago</span>
+                    <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article Card 3 -->
+        <article class="article-card">
+            <div class="article-image">
+                <img src="https://source.unsplash.com/random/600x400/?sports" alt="Sports News">
+            </div>
+            <div class="article-content">
+                <h2>Underdog Team Wins Championship in Stunning Upset</h2>
+                <p class="snippet">In what analysts are calling the biggest surprise of the season, the underdogs defeated the reigning champions in a thrilling match...</p>
+                <div class="article-meta">
+                    <span class="timestamp"><i class="far fa-clock"></i> 8 hours ago</span>
+                    <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article Card 4 -->
+        <article class="article-card">
+            <div class="article-image">
+                <img src="https://source.unsplash.com/random/600x400/?science" alt="Science News">
+            </div>
+            <div class="article-content">
+                <h2>Scientists Discover New Species in Deep Ocean Exploration</h2>
+                <p class="snippet">A team of marine biologists has identified several previously unknown species during an expedition to explore deep-sea trenches...</p>
+                <div class="article-meta">
+                    <span class="timestamp"><i class="far fa-clock"></i> 1 day ago</span>
+                    <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article Card 5 -->
+        <article class="article-card">
+            <div class="article-image">
+                <img src="https://source.unsplash.com/random/600x400/?environment" alt="Environment News">
+            </div>
+            <div class="article-content">
+                <h2>Renewable Energy Surpasses Fossil Fuels for First Time</h2>
+                <p class="snippet">In a historic milestone for environmental sustainability, renewable energy sources have generated more electricity than fossil fuels...</p>
+                <div class="article-meta">
+                    <span class="timestamp"><i class="far fa-clock"></i> 1 day ago</span>
+                    <button class="bookmark-btn"><i class="far fa-bookmark"></i></button>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Compact Footer with Minimal Navigation -->
+    <footer class="compact-footer">
+        <nav class="footer-nav">
+            <a href="#" class="active"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#"><i class="fas fa-search"></i><span>Search</span></a>
+            <a href="#"><i class="fas fa-user"></i><span>Profile</span></a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
